@@ -29,7 +29,7 @@
 
 📈 Converting raw data → decisions  
 
-📬 24f2002015@ds.study.iitm.ac.in  
+📬 [Connect on LinkedIn](https://www.linkedin.com/in/anjali-kokare-645488382/)  
 
 <br>
 
@@ -127,15 +127,15 @@
 # 📈 GitHub Glow
 
 <img height="180"
-src="https://github-readme-stats.vercel.app/api?username=anjalikokare&show_icons=true&theme=tokyonight&border_color=A855F7"/>
+src="https://github-readme-stats.vercel.app/api?username=anjalirameshwarkokare&show_icons=true&theme=tokyonight&border_color=A855F7"/>
 
 <img height="180"
-src="https://github-readme-streak-stats.herokuapp.com/?user=anjalikokare&theme=tokyonight&ring=EC4899&fire=A855F7"/>
+src="https://github-readme-streak-stats.herokuapp.com/?user=anjalirameshwarkokare&theme=tokyonight&ring=EC4899&fire=A855F7"/>
 
 <br><br>
 
 <img
-src="https://github-readme-stats.vercel.app/api/top-langs/?username=anjalikokare&layout=compact&theme=tokyonight&border_color=06B6D4"/>
+src="https://github-readme-stats.vercel.app/api/top-langs/?username=anjalirameshwarkokare&layout=compact&theme=tokyonight&border_color=06B6D4"/>
 
 </div>
 
@@ -147,7 +147,7 @@ src="https://github-readme-stats.vercel.app/api/top-langs/?username=anjalikokare
 
 # 🌐 Connect
 
-<a href="https://github.com/anjalikokare">
+<a href="https://github.com/anjalirameshwarkokare">
 <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge"/>
 </a>
 
