@@ -1,54 +1,63 @@
-<!-- Custom original vector artwork. All graphics live in this repository. -->
+<!-- Original SVG artwork is stored in this repository. No external stats widgets required. -->
 <div align="center">
-  <img src="assets/neon/hero.svg" width="100%" alt="Anjali Kokare — Python, Data Science and Machine Learning. IIT Madras BS Data Science student." />
+  <img src="assets/studio/hero.svg" width="100%" alt="Anjali Kokare — Code with curiosity. Build with purpose. Python, Machine Learning and Business Analytics. BS Data Science at IIT Madras." />
 </div>
 
 <p align="center">
-  <a href="#selected-work">Selected work</a> &nbsp; · &nbsp;
-  <a href="#developer-toolkit">Developer toolkit</a> &nbsp; · &nbsp;
-  <a href="#lets-connect">Let's connect</a>
+  <a href="#about-me"><b>About</b></a> &nbsp; / &nbsp;
+  <a href="#selected-work"><b>Selected work</b></a> &nbsp; / &nbsp;
+  <a href="#my-toolkit"><b>Toolkit</b></a> &nbsp; / &nbsp;
+  <a href="#lets-connect"><b>Connect</b></a>
 </p>
 
-<img src="assets/neon/about.svg" width="100%" alt="I study Data Science at IIT Madras and build with Python, Flask and ML. I love making messy data useful and turning ideas into working applications." />
+## About me
 
-<p align="center"><strong>Learning by doing. Building with curiosity. Improving one commit at a time.</strong></p>
+Hi, I'm **Anjali** — a **BS Data Science student at IIT Madras**, currently at the diploma level. I enjoy building with Python, exploring machine learning, and finding useful stories in real business data.
 
-<h2 id="selected-work">Selected work</h2>
+My projects connect three interests: **clean code, thoughtful analysis, and applications people can use.**
 
-<img src="assets/neon/section-projects.svg" width="100%" alt="01 — Things I have built. Explore the code." />
+- **Building:** Python and Flask applications, from inputs to predictions.
+- **Exploring:** NLP, feature engineering, model workflows and data visualization.
+- **Learning by doing:** turning coursework and experiments into documented projects.
+
+## Selected work
+
+<p>Explore a few projects that bring those interests together. Click a card to see the repository.</p>
 
 <p align="center">
-  <a href="https://github.com/anjalirameshwarkokare/comment-category-prediction"><img src="assets/neon/project-nlp.svg" width="49%" alt="Comment intelligence — NLP classification using Python, TF-IDF and LightGBM. Open repository." /></a>
-  <a href="https://github.com/anjalirameshwarkokare/BDM_Capstone_project_kirana-store"><img src="assets/neon/project-retail.svg" width="49%" alt="Data meets the real world — analysis of 6,465 kirana store transactions. Open repository." /></a>
+  <a href="https://github.com/anjalirameshwarkokare/comment-category-prediction"><img src="assets/studio/project-nlp.svg" width="49%" alt="Comment Category Prediction — Text preprocessing, TF-IDF and a four-class LightGBM model. View repository." /></a>
+  <a href="https://github.com/anjalirameshwarkokare/BDM_Capstone_project_kirana-store"><img src="assets/studio/project-retail.svg" width="49%" alt="Kirana Store Analytics — 6,465 transactions analyzed for sales, credit and inventory insights. View repository." /></a>
 </p>
 <p align="center">
-  <a href="https://github.com/anjalirameshwarkokare/ML-placement-app"><img src="assets/neon/project-placement.svg" width="49%" alt="A model, made interactive — Flask placement prediction application. Open repository." /></a>
-  <a href="https://github.com/anjalirameshwarkokare/MLP-material"><img src="assets/neon/project-notebooks.svg" width="49%" alt="Small experiments. Big ideas. — machine learning notebooks and examples. Open repository." /></a>
+  <a href="https://github.com/anjalirameshwarkokare/ML-placement-app"><img src="assets/studio/project-placement.svg" width="49%" alt="Placement Prediction App — A Flask interface for a trained model using CGPA and IQ inputs. View repository." /></a>
+  <a href="https://github.com/anjalirameshwarkokare/codebootstrap"><img src="assets/studio/project-web.svg" width="49%" alt="Responsive Web Design — A Bootstrap website exploring responsive layouts and components. View repository." /></a>
 </p>
 
-**More of my work:** [ML lecture notebooks](https://github.com/anjalirameshwarkokare/MLP-lectures) · [Bootstrap website](https://github.com/anjalirameshwarkokare/codebootstrap)
+<details>
+<summary><b>More from my learning lab</b> — notebooks, coursework and experiments</summary>
 
-<h2 id="developer-toolkit">Developer toolkit</h2>
+| Collection | What you will find |
+| --- | --- |
+| [MLP material](https://github.com/anjalirameshwarkokare/MLP-material) | Machine learning practice material and notebook examples |
+| [MLP lectures](https://github.com/anjalirameshwarkokare/MLP-lectures) | Lecture notebooks and concepts I am working through |
+| [IITM TDS coursework](https://github.com/anjalirameshwarkokare/iitm-tds-26t1) | Coursework and technical exercises |
 
-<img src="assets/neon/section-toolkit.svg" width="100%" alt="02 — My developer toolkit. Learn, build, repeat." />
-<img src="assets/neon/toolkit.svg" width="100%" alt="Python, SQL, Flask, Pandas, NumPy, scikit-learn, Jupyter, Git and GitHub, HTML and CSS, Bootstrap, SQLite and Excel." />
+</details>
 
-### What keeps me curious
+## My toolkit
 
-- **Python development** — building useful applications with clear, readable code.
-- **Data and business analytics** — finding patterns that lead to practical decisions.
-- **Machine learning** — exploring text classification, prediction and model workflows.
+<img src="assets/studio/toolkit.svg" width="100%" alt="My toolkit: Python, SQL, Flask, HTML, CSS, Bootstrap, SQLite, Pandas, NumPy, scikit-learn, LightGBM, Matplotlib, Seaborn, Git, GitHub, Jupyter and Excel." />
 
-<h2 id="lets-connect">Let's connect</h2>
+I use these tools across coursework and personal projects, and keep improving through practice.
 
-<img src="assets/neon/section-connect.svg" width="100%" alt="03 — Let us build something useful. Say hello." />
+## Let's connect
+
+I'm interested in **Python development, data analytics and ML opportunities**, and conversations with people who enjoy building useful things.
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/anjali-kokare-645488382/"><img src="assets/neon/connect-linkedin.svg" width="32%" alt="LinkedIn — connect with Anjali Kokare." /></a>
-  <a href="https://www.kaggle.com/anjalikokare"><img src="assets/neon/connect-kaggle.svg" width="32%" alt="Kaggle — follow my data journey." /></a>
-  <a href="https://github.com/anjalirameshwarkokare?tab=repositories"><img src="assets/neon/connect-github.svg" width="32%" alt="GitHub — explore my repositories." /></a>
+  <a href="https://www.linkedin.com/in/anjali-kokare-645488382/"><img src="assets/studio/linkedin.svg" width="32%" alt="Connect with Anjali on LinkedIn." /></a>
+  <a href="https://www.kaggle.com/anjalikokare"><img src="assets/studio/kaggle.svg" width="32%" alt="Explore Anjali's Kaggle profile." /></a>
+  <a href="https://github.com/anjalirameshwarkokare?tab=repositories"><img src="assets/studio/repositories.svg" width="32%" alt="Browse all of Anjali's GitHub repositories." /></a>
 </p>
 
-<p align="center">Open to conversations about Python, data projects, machine learning and thoughtful collaboration.</p>
-
-<img src="assets/neon/footer.svg" width="100%" alt="Curiosity is the spark. Code is the craft. Thanks for stopping by — keep building something good." />
+<p align="center"><sub>Curious by nature. Better with every iteration.</sub></p>
