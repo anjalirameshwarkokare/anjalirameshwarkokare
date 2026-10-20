@@ -123,6 +123,17 @@ for x, number, title, lines, color in groups:
     b += '<path d="M'+str(x+18)+' 179H'+str(x+340)+'" stroke="'+color+'" stroke-width="4" stroke-linecap="round"/>'
 save('toolkit.svg', 1200, 238, 'Code and web: Python, SQL, Flask, HTML, CSS, Bootstrap, SQLite. Data and ML: Pandas, NumPy, scikit-learn, LightGBM, Matplotlib, Seaborn. Tools: Git, GitHub, Jupyter and Excel.', b)
 
+b = rect(1, 1, 398, 574, '#F7F7FD', 22, 'stroke="#E0DFF0"')
+for i, (_, number, title, lines, color) in enumerate(groups):
+    x, y = 20, 18+i*184
+    b += rect(x, y, 360, 172, '#FFFFFF', 18, 'stroke="#E4E3F0"')
+    b += pill(x+18, y+18, number, color, 45, size=13)
+    b += t(x+78, y+43, title, 23, INK, 700)
+    b += t(x+18, y+92, lines[0], 20, '#4F5570')
+    b += t(x+18, y+123, lines[1], 18, '#4F5570')
+    b += '<path d="M'+str(x+18)+' '+str(y+149)+'H'+str(x+340)+'" stroke="'+color+'" stroke-width="4" stroke-linecap="round"/>'
+save('toolkit-mobile.svg', 400, 576, 'Anjali Kokare developer toolkit, arranged vertically for smaller screens.', b)
+
 for filename, label, caption, color, icon in [
  ('linkedin.svg','LinkedIn','Let us connect', '#BFF4F2', 'in'),
  ('kaggle.svg','Kaggle','Explore my data work', '#D9CBFF', 'k'),
@@ -162,12 +173,12 @@ My projects connect three interests: **clean code, thoughtful analysis, and appl
 <p>Explore a few projects that bring those interests together. Click a card to see the repository.</p>
 
 <p align="center">
-  <a href="https://github.com/anjalirameshwarkokare/comment-category-prediction"><img src="assets/studio/project-nlp.svg" width="49%" alt="Comment Category Prediction — Text preprocessing, TF-IDF and a four-class LightGBM model. View repository." /></a>
-  <a href="https://github.com/anjalirameshwarkokare/BDM_Capstone_project_kirana-store"><img src="assets/studio/project-retail.svg" width="49%" alt="Kirana Store Analytics — 6,465 transactions analyzed for sales, credit and inventory insights. View repository." /></a>
+  <a href="https://github.com/anjalirameshwarkokare/comment-category-prediction"><img src="assets/studio/project-nlp.svg" width="400" alt="Comment Category Prediction — Text preprocessing, TF-IDF and a four-class LightGBM model. View repository." /></a>
+  <a href="https://github.com/anjalirameshwarkokare/BDM_Capstone_project_kirana-store"><img src="assets/studio/project-retail.svg" width="400" alt="Kirana Store Analytics — 6,465 transactions analyzed for sales, credit and inventory insights. View repository." /></a>
 </p>
 <p align="center">
-  <a href="https://github.com/anjalirameshwarkokare/ML-placement-app"><img src="assets/studio/project-placement.svg" width="49%" alt="Placement Prediction App — A Flask interface for a trained model using CGPA and IQ inputs. View repository." /></a>
-  <a href="https://github.com/anjalirameshwarkokare/codebootstrap"><img src="assets/studio/project-web.svg" width="49%" alt="Responsive Web Design — A Bootstrap website exploring responsive layouts and components. View repository." /></a>
+  <a href="https://github.com/anjalirameshwarkokare/ML-placement-app"><img src="assets/studio/project-placement.svg" width="400" alt="Placement Prediction App — A Flask interface for a trained model using CGPA and IQ inputs. View repository." /></a>
+  <a href="https://github.com/anjalirameshwarkokare/codebootstrap"><img src="assets/studio/project-web.svg" width="400" alt="Responsive Web Design — A Bootstrap website exploring responsive layouts and components. View repository." /></a>
 </p>
 
 <details>
@@ -183,7 +194,10 @@ My projects connect three interests: **clean code, thoughtful analysis, and appl
 
 ## My toolkit
 
-<img src="assets/studio/toolkit.svg" width="100%" alt="My toolkit: Python, SQL, Flask, HTML, CSS, Bootstrap, SQLite, Pandas, NumPy, scikit-learn, LightGBM, Matplotlib, Seaborn, Git, GitHub, Jupyter and Excel." />
+<picture>
+  <source media="(max-width: 640px)" srcset="assets/studio/toolkit-mobile.svg" />
+  <img src="assets/studio/toolkit.svg" width="100%" alt="My toolkit: Python, SQL, Flask, HTML, CSS, Bootstrap, SQLite, Pandas, NumPy, scikit-learn, LightGBM, Matplotlib, Seaborn, Git, GitHub, Jupyter and Excel." />
+</picture>
 
 I use these tools across coursework and personal projects, and keep improving through practice.
 
@@ -192,9 +206,9 @@ I use these tools across coursework and personal projects, and keep improving th
 I'm interested in **Python development, data analytics and ML opportunities**, and conversations with people who enjoy building useful things.
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/anjali-kokare-645488382/"><img src="assets/studio/linkedin.svg" width="32%" alt="Connect with Anjali on LinkedIn." /></a>
-  <a href="https://www.kaggle.com/anjalikokare"><img src="assets/studio/kaggle.svg" width="32%" alt="Explore Anjali's Kaggle profile." /></a>
-  <a href="https://github.com/anjalirameshwarkokare?tab=repositories"><img src="assets/studio/repositories.svg" width="32%" alt="Browse all of Anjali's GitHub repositories." /></a>
+  <a href="https://www.linkedin.com/in/anjali-kokare-645488382/"><img src="assets/studio/linkedin.svg" width="260" alt="Connect with Anjali on LinkedIn." /></a>
+  <a href="https://www.kaggle.com/anjalikokare"><img src="assets/studio/kaggle.svg" width="260" alt="Explore Anjali's Kaggle profile." /></a>
+  <a href="https://github.com/anjalirameshwarkokare?tab=repositories"><img src="assets/studio/repositories.svg" width="260" alt="Browse all of Anjali's GitHub repositories." /></a>
 </p>
 
 <p align="center"><sub>Curious by nature. Better with every iteration.</sub></p>
